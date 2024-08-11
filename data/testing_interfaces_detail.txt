@@ -1,0 +1,70 @@
+Flags: D - dynamic; X - disabled; I - inactive, R - running; S - slave; P - passthrough 
+ 0   R   name="ether1" default-name="ether1" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1600 max-l2mtu=9586 mac-address=48:A9:8A:CA:6F:D8 last-link-up-time=2024-07-28 07:17:56 link-downs=0 
+
+ 1       name="qsfp28-1-1" default-name="qsfp28-1-1" type="ether" mtu=9570 actual-mtu=9570 l2mtu=9570 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:C4 link-downs=0 
+
+ 2       name="qsfp28-1-2" default-name="qsfp28-1-2" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:C5 link-downs=0 
+
+ 3       name="qsfp28-1-3" default-name="qsfp28-1-3" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:C6 link-downs=0 
+
+ 4       name="qsfp28-1-4" default-name="qsfp28-1-4" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:C7 link-downs=0 
+
+ 5       name="qsfp28-2-1" default-name="qsfp28-2-1" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:C8 link-downs=0 
+
+ 6       name="qsfp28-2-2" default-name="qsfp28-2-2" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:C9 link-downs=0 
+
+ 7       name="qsfp28-2-3" default-name="qsfp28-2-3" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:CA link-downs=0 
+
+ 8       name="qsfp28-2-4" default-name="qsfp28-2-4" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:CB link-downs=0 
+
+ 9   R  name="sfp28-1" default-name="sfp28-1" type="ether" mtu=9570 actual-mtu=9570 l2mtu=9570 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:CC last-link-up-time=2024-07-28 07:17:56 
+        link-downs=0 
+
+10       name="sfp28-2" default-name="sfp28-2" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:CD link-downs=0 
+
+11       name="sfp28-3" default-name="sfp28-3" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:CE link-downs=0 
+
+12       name="sfp28-4" default-name="sfp28-4" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:CF link-downs=0 
+
+13       name="sfp28-5" default-name="sfp28-5" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D0 link-downs=0 
+
+14       name="sfp28-6" default-name="sfp28-6" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D1 link-downs=0 
+
+15       name="sfp28-7" default-name="sfp28-7" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D2 link-downs=0 
+
+16       name="sfp28-8" default-name="sfp28-8" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D3 link-downs=0 
+
+17       name="sfp28-9" default-name="sfp28-9" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D4 link-downs=0 
+
+18       name="sfp28-10" default-name="sfp28-10" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D5 link-downs=0 
+
+19       name="sfp28-11" default-name="sfp28-11" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D6 link-downs=0 
+
+20       name="sfp28-12" default-name="sfp28-12" type="ether" mtu=1500 actual-mtu=1500 l2mtu=1584 max-l2mtu=9570 mac-address=30:A0:CA:CA:6F:D7 link-downs=0 
+
+21   R   name="VLAN10-TEST" type="vlan" mtu=1500 actual-mtu=1500 l2mtu=9566 mac-address=30:A0:CA:CA:6F:CC last-link-up-time=2024-07-28 07:17:56 link-downs=0 
+
+22   R   name="VLAN20-TEST" type="vlan" mtu=2000 actual-mtu=2000 l2mtu=9566 mac-address=30:A0:CA:CA:6F:CC last-link-up-time=2024-07-28 07:17:56 link-downs=0 
+
+23   R   name="VLAN30-TEST" type="vlan" mtu=2000 actual-mtu=2000 l2mtu=9562 mac-address=30:A0:CA:CA:6F:CC last-link-up-time=2024-07-28 07:17:56 link-downs=0 
+
+24   R  name="VLAN40-TEST" type="vlan" mtu=2000 actual-mtu=2000 l2mtu=9562 mac-address=30:A0:CA:CA:6F:CC last-link-up-time=2024-07-28 07:17:56 link-downs=0 
+
+25   R  name="VLAN50-TEST" type="vlan" mtu=2000 actual-mtu=2000 l2mtu=9562 mac-address=30:A0:CA:CA:6F:CC last-link-up-time=2024-07-28 07:17:56 link-downs=0 
+
+26   R   name="VLAN60-TEST" type="vrrp" mtu=1500 actual-mtu=2000 l2mtu=9562 mac-address=00:00:5E:00:01:02 last-link-down-time=2024-08-05 15:02:56 
+         last-link-up-time=2024-08-05 15:02:56 link-downs=12 
+
+27   R   name="VLAN70-TEST" type="vrrp" mtu=1500 actual-mtu=2000 l2mtu=9562 mac-address=00:00:5E:00:01:03 last-link-down-time=2024-08-05 15:02:56 
+         last-link-up-time=2024-08-05 15:02:56 link-downs=11 
+
+28   R  name="VLAN80-TEST" type="vrrp" mtu=1500 actual-mtu=2000 l2mtu=9562 mac-address=00:00:5E:00:01:01 last-link-down-time=2024-08-05 15:02:56 
+        last-link-up-time=2024-08-05 15:02:56 link-downs=13 
+
+29   R   name="lo" type="loopback" mtu=65536 actual-mtu=65536 mac-address=00:00:00:00:00:00 last-link-up-time=2024-07-28 07:17:53 link-downs=0 
+
+30   R   name="lo0" type="bridge" mtu=auto actual-mtu=1500 l2mtu=65535 mac-address=10:4F:30:3B:57:CD last-link-up-time=2024-07-28 07:17:53 link-downs=0 
+
+31   R   name="VLAN10" type="vlan" mtu=2000 actual-mtu=2000 l2mtu=9566 mac-address=30:A0:CA:CA:6F:CC last-link-up-time=2024-07-28 07:17:56 link-downs=0 
+
+32   R   name="vrf_poisoned" type="vrf" mtu=65536 actual-mtu=65536 mac-address=3A:49:BF:AC:47:18 last-link-up-time=2024-07-28 07:17:53 link-downs=0 

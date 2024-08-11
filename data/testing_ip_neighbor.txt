@@ -1,0 +1,12 @@
+Columns: INTERFACE, ADDRESS, MAC-ADDRESS, IDENTITY, VERSION, BOARD
+#  INTERFACE                ADDRESS       MAC-ADDRESS        IDENTITY                 VERSION                             BOARD         
+0  ether1                                 DC:2C:6E:C8:C4:1D  TEST_A                     6.49.13 (stable)                    CCR1036-8G-2S+
+1  sfp28-1                                70:CD:91:1B:D7:9D  TEST_B                                                     
+2  sfp28-1                                60:8A:A8:23:B2:F1  TEST_C                     7.12 (stable) Nov/09/2023 07:45:06  CRS326-24S+2Q+
+3  TEST_D          100.10.2.50            60:8A:A8:23:B2:F1  TEST_D                     7.12 (stable) Nov/09/2023 07:45:06  CRS326-24S+2Q+
+4  TEST_E          100.1.0.9              48:A9:8A:20:EB:38  TEST_E                     2.17                                CSS610-8G-2S+ 
+5  TEST_F          100.1.7.9              60:8A:A8:2A:3A:FA  TEST_F                     7.12 (stable) Nov/09/2023 07:45:06  CRS310-8G+2S+ 
+6  TEST_G          100.1.8.9              60:8A:A8:2B:8F:F4  TEST_G                     2.17                                CSS610-8G-2S+ 
+7  TEST_H          100.1.0.9              48:A9:8A:20:EB:38  TEST_H                     2.17                                CSS610-8G-2S+ 
+8  TEST_I          100.1.7.9              60:8A:A8:2A:3A:FA  TEST_I                     7.12 (stable) Nov/09/2023 07:45:06  CRS310-8G+2S+ 
+9  TEST_J          100.1.8.9              60:8A:A8:2B:8F:F4  TEST_J                     2.17                                CSS610-8G-2S+ 
