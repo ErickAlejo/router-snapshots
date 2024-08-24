@@ -4,10 +4,10 @@ from sqlalchemy.orm import sessionmaker
 import sqlalchemy
 
 # Tables
-from models.create_main_tables import Routers
-from models.create_main_tables import TypeCommands
-from models.create_main_tables import Commands
-from models.create_main_tables import Output
+from models.add_db_main_and_tables import Routers
+from models.add_db_main_and_tables import TypeCommands
+from models.add_db_main_and_tables import Commands
+from models.add_db_main_and_tables import Output
 
 # Helpers
 from helpers.FileHandle import open_file_txt

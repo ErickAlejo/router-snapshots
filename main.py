@@ -1,20 +1,14 @@
-# Helpers
+# Native imports
 from typing import Any
 import argparse
-from helpers.ConnectionSsh import send_command_to_device
-from helpers.vars import conf_connection
+
+# Helpers
 from helpers.validator_of_things import validate_ipv4
 
-# SQL and tables abstraction
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from models.create_main_tables import Routers
+# Base (Logics)
+from router_argument import run_routers
 
-# Lib native neccesary
-from pprint import pprint
-import re
 
- 
 def init_arguments() -> Any:
     parse = argparse.ArgumentParser(
         prog='MikroDeck',
@@ -28,38 +22,16 @@ def init_arguments() -> Any:
     
     return args
 
-def init_connection_to_db(path_db:str) -> Any:
-    engine = create_engine(f"sqlite:///{path_db}", echo=True)
-    Session = sessionmaker(bind=engine)
-    session = Session()
-    
-    return session
-
-def get_all_ips_from_db() -> list:
-    session = init_connection_to_db("databases/snapshots.db")
-    routers = session.query(Routers).all()
-    
-    ip = []
-    for router in routers:
-        ip.append(router.router_ip)
-
-    return ip
-
-def get_output_of_routers(ip) -> str:
-    device = conf_connection(ip) 
-    output = send_command_to_device(device,"/interface print detail without-paging")    
-
-    return output        
-
-def handle_every_argument_passed_to_main_script(args):
+def handle_every_argument_passed_to_main_script(args) -> None:
 
     if args.routers is not None:
-        # Validate
+        # Validate if exist argument routers
+        
         if len(args.routers) > 0 and len(args.routers) <= 10:
             for ip in args.routers:
                 good_format = validate_ipv4(ip)     
                 if good_format is True:
-                    pass
+                    run_routers(ip)
                 else:
                     break
                              
@@ -70,7 +42,6 @@ def handle_every_argument_passed_to_main_script(args):
 
 try:
     args = init_arguments()
-    ips = get_all_ips_from_db()
     print('\n\n')
     handle_every_argument_passed_to_main_script(args)
 
